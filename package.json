@@ -1,0 +1,24 @@
+{
+  "name": "vue-naive-admin",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.2.16",
+    "vue-router": "4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.9.3",
+    "autoprefixer": "^10.4.0",
+    "naive-ui": "^2.21.2",
+    "postcss": "^8.4.4",
+    "tailwindcss": "^2.2.19",
+    "typescript": "^4.4.3",
+    "vfonts": "^0.1.0",
+    "vite": "^2.6.4",
+    "vue-tsc": "^0.3.0"
+  }
+}
